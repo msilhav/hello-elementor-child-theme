@@ -7,10 +7,10 @@
 
 /* ---------- Blinking text style begin ---------- */
 p{
-	animation-name:blink;
-	animation-duration:3s;
-	animation-iteration-count:infinite;
-	animation-direction:alternate;
+	animation-name:blink!important;
+	animation-duration:3s!important;
+	animation-iteration-count:infinite!important;
+	animation-direction:alternate!important;
 }
 
 @keyframes blink{
