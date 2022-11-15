@@ -1,0 +1,24 @@
+/*
+	Theme Name: Hello Elementor Child
+	Description: Hello Elementor Child Theme
+	Template: hello-elementor
+	Version: 1.0.0
+*/
+
+/* ---------- Blinking text style begin ---------- */
+p{
+	animation-name:blink;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+@keyframes blink{
+	from {
+		opacity:100;
+	}
+	to {
+		opacity:0;
+	}
+}
+/* ----------- Blinking text style end ----------- */
